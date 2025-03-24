@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-void sat_hello(void){
-    printf("Hello~");
-    return;
+int sat_hello(int a, int b){
+    return a + b;
 }
 
 int main(void){
